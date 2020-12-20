@@ -10,7 +10,7 @@ def main():
 
 @app.route('/color/<new_color>')
 def new_color(new_color):
-    return render_template('hello.html', name-socker.gethostname(), color=color_codes[new_color])
+    return render_template('hello.html', name=socket.gethostname(), color=color_codes[new_color])
 
 @app.route('/read_file')
 def read_file():
